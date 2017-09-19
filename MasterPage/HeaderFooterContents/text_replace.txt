@@ -1,0 +1,69 @@
+<div class="row align-items-center">
+    <div class="col">
+        <form>  
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Text</label>
+                <textarea class="form-control" id="txtData" rows="3"></textarea>
+                <div>
+                    Length:<span style="align:left" id="spTextLen"></span>
+                    White Spaces:<span id="spTextWhiteSpaces"></span>
+                    <span class="input-group-addon">
+                        <input type="checkbox" id="chkTextHighlight">&nbsp Hightlight Spaces
+                    </span>
+                </div>
+            </div>					
+        </form>
+    </div>
+    
+    <div class="col">
+        <form>  
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Repalced Text</label>
+                <textarea class="form-control" id="txtReplaced" rows="3"></textarea>
+                <div>
+                    Length:<span style="align:left" id="spReplacedTextLen"></span>
+                    White Spaces:<span style="text-align:right" id="spReplacedTextWhiteSpaces"></span>
+                    <span class="input-group-addon">
+                        <input type="checkbox" id="chkReplacedTextHighlight">&nbsp Hightlight Spaces
+                    </span>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row align-items-center">
+    <div class="col">
+        <form>  
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Replace Text</label>
+                <textarea class="form-control" id="txtReplaceText" rows="3"></textarea>                        
+            </div>					
+        </form>
+    </div>
+    
+    <div class="col">
+        <form>  
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">With</label>
+                <textarea class="form-control" id="txtReplaceTextWith" rows="3"></textarea>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="row align-items-center">
+    <div class="col">
+        <button id="btnReplace">Replace</button> &nbsp;
+    </div>
+    <div class="col">
+    </div>
+</div>	
+<br/>
+<div class="row align-items-center">
+    <div class="col">
+        <button id="btnCountTextLen">Count Text</button> &nbsp;
+    </div>
+    <div class="col">
+        <button id="btnReplacedTextLen">Count Replaced Text</button> &nbsp;
+    </div>
+</div>	
