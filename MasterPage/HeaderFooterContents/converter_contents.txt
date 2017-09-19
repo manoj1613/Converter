@@ -1,0 +1,28 @@
+<div class="row align-items-center">
+    <div class="col">
+        <form>  
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Encoded Text</label>
+            <textarea class="form-control" id="txtEncode" rows="20"></textarea>						
+        </div>					
+        </form>
+    </div>
+    <div style="width:1%">
+        <div>
+        <button id="btnEncode">></button>
+        </div>
+        <div style="padding:10px">
+        </div>
+        <div>
+        <button id="btnDecode"><</button>
+        </div>
+    </div>
+    <div class="col">
+        <form>  
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Decoded Text</label>
+            <textarea class="form-control" id="txtDecode" rows="20"></textarea>
+        </div>
+        </form>
+    </div>
+</div>

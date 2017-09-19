@@ -1,0 +1,4 @@
+﻿<nav class="navbar fixed-bottom navbar-light bg-light">
+  <img alt="" src="{{FooterImage}}" style="display:{{DisplayFooterImage}};" />
+  <a class="navbar-brand" href="#">© 2017 All Rights Reserved</a>
+</nav>
